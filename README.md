@@ -25,7 +25,7 @@ Test the C Program for the desired output.
 
 ## C Program to print process ID and parent Process ID using Linux API system calls
 
-
+```
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -48,7 +48,7 @@ int main(void)
 
 
 
-
+```
 
 
 
@@ -75,7 +75,7 @@ int main(void)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 
-
+```
 
 #include <stdio.h>
 #include<stdlib.h>
@@ -107,7 +107,7 @@ exit(0);}
 }
 
 
-
+```
 
 
 
@@ -130,7 +130,7 @@ exit(0);}
 
 
 
-
+```
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sys/types.h>
@@ -162,7 +162,7 @@ exit(0);}
 
 
 
-
+```
 
 
 
